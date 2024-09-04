@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #ffe5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 60vh; */
+    margin: 0;
+}
+
+.card {
+    /* background-color:#f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+    /* height: 800px; */
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.header h1 {
+    font-size: 2.7em;
+    color: #c167fe;
+    margin: 16px 0;
+    letter-spacing: 5px;
+    text-shadow: 0 9px 7px rgba(0, 0, 0, 0.3);
+    animation: fadeInSlideDown 1.2s ease-in forwards; /* Animation added */
+}
+
+.header h2 {
+    font-size: 2.4em;
+    color: #000000;
+    margin-top: -15px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-right: 8px;
+    text-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeInSlideDown 1.2s ease-in forwards; /* Animation added */
+}
+
+.img-background{
+    background-color: #a1a8a6;
+    height: 280px;
+    width: 192px;
+    margin: 40px auto;
+    z-index: 1;
+    
+}
+
+.image{
+    background-color: #47c6a0;
+    height: 280px;
+    width: 192px;
+    margin: -318px auto;
+    z-index: 2;
+    transform: rotate(-9deg);
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.34);
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+ /* .text{
+    height: 100px;
+    width: 200px;
+    z-index: 1;
+    background-color: #ffe5ec;
+    margin: 380px 0px 0px 95px;
+    font-size: 12px;
+ } */
+  
+ .image p{
+    font-family: sans-serif;
+ }
+
+ #wishing{
+    font-size: 12px;
+    padding-bottom: 16px;
+    color: #ff0e0ee6;
+    text-shadow: 0 3px 2.7px rgba(0, 0, 0, 0.3);
+ }
+ .container {
+    height: 100px;
+    width: 200px;
+    z-index: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 350px 0px 0px 75px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:italic;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* background-color: #fff; */
+}
+
+#world{
+    padding: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight:600;
+    font-size: 12px;
+    color: #1c1b1bf2;;
+}
+
+
+
+#time-since p {
+    margin: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight:600;
+}
+
+button{
+    width: 38px;
+    margin: 110px 15px 0 0;
+    cursor: pointer;
+    font-size: 6px;
+    background-color: #c167fe;
+    border: none;
+    padding: 3px 3px 3.8px 3px;
+    color: white;
+    border-radius: 2.32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.36); 
+
+}
+
+
+/* Add keyframes for animations */
+@keyframes fadeInSlideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
